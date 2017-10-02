@@ -4,7 +4,7 @@
   <!-- Adaptation for Libra (Android 7.1.2) -->
   <remote name="aospa7"
           revision="nougat-mr2"
-          fetch="https://github.com/yourkenga" />
+          fetch="https://github.com/yourKenga" />
 
   <remote name="hardware-8994"
           revision="nougat-mr2-8994"
@@ -12,7 +12,7 @@
 
   <!-- Libra -->
   <project path="device/xiaomi/libra" name="android_device_xiaomi_libra" remote="aospa7" />
-  <project path="kernel/xiaomi/libra" name="android_kenrel_xiaomi_libra" remote="aospa7" />
+  <project path="kernel/xiaomi/libra" name="android_kernel_xiaomi_libra" remote="aospa7" />
   <project path="vendor/xiaomi/libra" name="android_vendor_xiaomi_libra" remote="aospa7" />
 
   <!-- AOSPA -->
