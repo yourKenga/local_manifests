@@ -11,13 +11,13 @@
           fetch="https://github.com/AOSPA" />
 
   <!-- Libra -->
-  <project path="device/xiaomi/libra" name="yourkenga/android_device_xiaomi_libra" remote="aospa7" />
-  <project path="kernel/xiaomi/libra" name="yourkenga/android_kenrel_xiaomi_libra" remote="aospa7" />
-  <project path="vendor/xiaomi/libra" name="yourkenga/android_vendor_xiaomi_libra" remote="aospa7" />
+  <project path="device/xiaomi/libra" name="android_device_xiaomi_libra" remote="aospa7" />
+  <project path="kernel/xiaomi/libra" name="android_kenrel_xiaomi_libra" remote="aospa7" />
+  <project path="vendor/xiaomi/libra" name="android_vendor_xiaomi_libra" remote="aospa7" />
 
   <!-- AOSPA -->
-  <project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="hardware-8994" />
-  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="hardware-8994" />
-  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="hardware-8994" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="hardware-8994" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="hardware-8994" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="hardware-8994" />
 
 </manifest>
