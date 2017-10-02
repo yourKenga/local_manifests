@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- libra -->
-    <project path="device/xiaomi/libra" name="LineageOS/android_device_xiaomi_libra" remote="github" revision="cm-14.1" />
-    <project path="kernel/xiaomi/libra" name="LineageOS/android_kenrel_xiaomi_libra" remote="github" revision="cm-14.1" />
-    <project path="vendor/xiaomi" name="Demon000/vendor_xiaomi" remote="github" revision="cm-14.1" />
+  <!-- Adaptation for Libra (Android 7.1.2) -->
+  <remote name="aospa7"
+          revision="nougat-mr2"
+          fetch="https://github.com/yourkenga" />
 
-    <!-- AOSPA -->
-    <project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="nougat-mr2-8994" />
-    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="nougat-mr2-8994" />
-    <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="nougat-mr2-8994" />
+  <remote name="hardware-8994"
+          revision="nougat-mr2-8994"
+          fetch="https://github.com/AOSPA" />
+
+  <!-- Libra -->
+  <project path="device/xiaomi/libra" name="yourkenga/android_device_xiaomi_libra" remote="aospa7" />
+  <project path="kernel/xiaomi/libra" name="yourkenga/android_kenrel_xiaomi_libra" remote="aospa7" />
+  <project path="vendor/xiaomi/libra" name="yourkenga/android_vendor_xiaomi_libra" remote="aospa7" />
+
+  <!-- AOSPA -->
+  <project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="hardware-8994" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="hardware-8994" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="hardware-8994" />
 
 </manifest>
